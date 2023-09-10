@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4bx-mz-ijR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Perro-->
+        <scene sceneID="FoY-8G-eHa">
+            <objects>
+                <viewController id="dFe-Bi-klG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="63g-Sh-qDz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perro" translatesAutoresizingMaskIntoConstraints="NO" id="Sxs-yd-DZi">
+                                <rect key="frame" x="54" y="319" width="307" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rLV-au-Ypp"/>
+                        <color key="backgroundColor" red="1" green="0.093322322279999995" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Perro" id="qE3-vh-YyF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wQH-5r-1bx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="592.75362318840587" y="-559.15178571428567"/>
+        </scene>
+        <!--Gato-->
+        <scene sceneID="WmP-UC-RgW">
+            <objects>
+                <viewController id="TKe-4o-wDa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mh5-Ee-EJg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gato" translatesAutoresizingMaskIntoConstraints="NO" id="qbw-YM-Cz7">
+                                <rect key="frame" x="54" y="319" width="307" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SwH-YN-Ude"/>
+                        <color key="backgroundColor" red="0.43055641649999998" green="0.68994337319999999" blue="0.7887207866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Gato" id="Kes-Bk-VUL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VoS-13-ith" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1491" y="-559"/>
+        </scene>
+        <!--Caballo-->
+        <scene sceneID="ZKc-rH-08Y">
+            <objects>
+                <viewController id="6jN-L8-H7J" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bph-PK-AI3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caballo" translatesAutoresizingMaskIntoConstraints="NO" id="qtr-Xg-6su">
+                                <rect key="frame" x="54" y="319" width="307" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FlD-G6-EkD"/>
+                        <color key="backgroundColor" red="1" green="0.7929208875" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Caballo" id="Vh0-S0-bcJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYe-tS-bi5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2426" y="-559"/>
+        </scene>
+        <!--Burro-->
+        <scene sceneID="EtC-Tl-zVh">
+            <objects>
+                <viewController id="tsf-B8-EpU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="diC-7x-Bxp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="burro" translatesAutoresizingMaskIntoConstraints="NO" id="m0H-Eh-acE">
+                                <rect key="frame" x="54" y="319" width="307" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nKu-VG-GVq"/>
+                        <color key="backgroundColor" red="0.79812794919999996" green="0.46520268920000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Burro" id="uYQ-vN-9IG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J2J-76-lkt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1490" y="848"/>
+        </scene>
+        <!--Pájaro-->
+        <scene sceneID="ErW-sg-ggR">
+            <objects>
+                <viewController id="PDJ-nm-3bL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RDK-Rg-saP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pajaro" translatesAutoresizingMaskIntoConstraints="NO" id="5qh-lR-GiL">
+                                <rect key="frame" x="54" y="319" width="307" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cEj-ZQ-Hd5"/>
+                        <color key="backgroundColor" red="0.6739803553" green="0.14096111059999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pájaro" id="4H4-XQ-3UG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1nQ-Ff-GOv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2425" y="848"/>
+        </scene>
+        <!--Serpiente-->
+        <scene sceneID="qZf-aY-PMo">
+            <objects>
+                <viewController id="rBe-Qf-Xit" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hcK-o6-79z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="serpiente" translatesAutoresizingMaskIntoConstraints="NO" id="v5d-oe-1l3">
+                                <rect key="frame" x="54" y="319" width="307" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mCv-ih-pCY"/>
+                        <color key="backgroundColor" red="0.30210202930000002" green="0.33047777410000001" blue="0.58487904069999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Serpiente" id="m7W-Ja-IZh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="He2-0B-Gqz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2425" y="132"/>
+        </scene>
+        <!--MENU PRINCIPAL-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ejAnimales" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Guq-h7-yjE">
+                                <rect key="frame" x="117" y="149" width="180" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.093322322279999995" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Perro">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="dFe-Bi-klG" kind="show" id="RbG-zJ-PJU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8V-Ve-Wvt">
+                                <rect key="frame" x="117" y="209" width="180" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43055641649999998" green="0.68994337319999999" blue="0.7887207866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Gato">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="TKe-4o-wDa" kind="show" id="vgT-ii-qCc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdf-8p-3ux">
+                                <rect key="frame" x="117" y="269" width="180" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.7929208875" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Caballo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="6jN-L8-H7J" kind="show" id="LoL-yz-Qdc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-QZ-TTh">
+                                <rect key="frame" x="117" y="329" width="180" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.30210202930000002" green="0.33047777410000001" blue="0.58487904069999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Serpiente">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="rBe-Qf-Xit" kind="show" id="bKL-Pw-W8S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ez-Qj-RNJ">
+                                <rect key="frame" x="117" y="389" width="180" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.6739803553" green="0.14096111059999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Pájaro">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="PDJ-nm-3bL" kind="show" id="cDe-Qa-Itr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIH-Yw-fzy">
+                                <rect key="frame" x="117" y="449" width="180" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.79812794919999996" green="0.46520268920000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Burro">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="tsf-B8-EpU" kind="show" id="Cgs-Ax-KJ5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.080950723252470602" green="0.49043387665569321" blue="0.74167412519999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MENU PRINCIPAL" id="eY3-VY-bck"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="592.75362318840587" y="131.91964285714286"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aUq-pN-CQG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4bx-mz-ijR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dA8-1m-F0i">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6pr-Z7-VsV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sim-Eo-HSc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-309" y="132"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="burro" width="350" height="240"/>
+        <image name="caballo" width="511" height="278.5"/>
+        <image name="gato" width="570" height="427.5"/>
+        <image name="pajaro" width="512" height="337.5"/>
+        <image name="perro" width="488" height="274.5"/>
+        <image name="serpiente" width="600" height="337.5"/>
+    </resources>
+</document>
